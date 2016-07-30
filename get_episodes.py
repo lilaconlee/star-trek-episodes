@@ -6,7 +6,7 @@ import urllib2
 import wikipedia
 
 BASE_URL = "https://en.wikipedia.org"
-series = ["The Next Generation"]
+series = ["The Original Series", "The Next Generation", "Deep Space Nine", "Voyager", "Enterprise"]
 
 for s in series:
     filename = s.lower().replace(' ', '') + ".json"
