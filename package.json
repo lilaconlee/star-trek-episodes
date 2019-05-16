@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fetch": "node fetcher.js",
+    "test": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "cypress": "^3.2.0"
   }
 }
